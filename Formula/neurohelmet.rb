@@ -5,22 +5,22 @@
 class Neurohelmet < Formula
   desc "Keyboard-driven terminal BattleTech record-sheet tracker"
   homepage "https://github.com/tympaniplayer/neurohelmet"
-  version "0.1.2"
+  version "0.2.0"
   license "GPL-3.0-or-later"
 
   on_macos do
-    url "https://github.com/tympaniplayer/neurohelmet/releases/download/v0.1.2/neurohelmet-0.1.2-universal-apple-darwin.zip"
-    sha256 "b8c2ba752e64fb839ff19ae00aa7b376facced3f2a4960db3ec882ce9584f78f"
+    url "https://github.com/tympaniplayer/neurohelmet/releases/download/v0.2.0/neurohelmet-0.2.0-universal-apple-darwin.zip"
+    sha256 "e6bab03db0abedff41f0245ecc1bd53d2a381dbdf50679aac1d4ce8339e8f393"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/tympaniplayer/neurohelmet/releases/download/v0.1.2/neurohelmet-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1e8b84ba951ecd2f85209d443059822046503262b2c2061c60578701239eaf37"
+      url "https://github.com/tympaniplayer/neurohelmet/releases/download/v0.2.0/neurohelmet-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a18d6dac7fd7855f204ce1f04e7e0cd64c0c5250ddc9fe87a8924ffb800c1484"
     end
     on_arm do
-      url "https://github.com/tympaniplayer/neurohelmet/releases/download/v0.1.2/neurohelmet-0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c2f568cd82eb935a894df3e362acdcb85fbb975f8dcc83782831785c7e428909"
+      url "https://github.com/tympaniplayer/neurohelmet/releases/download/v0.2.0/neurohelmet-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2d07b136a5e72b5f04d5a00aa54e1395e388f9e7bd54c2b0d6f2c8686fcf453d"
     end
   end
 
